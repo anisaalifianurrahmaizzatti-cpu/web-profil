@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Portfolio Anisa</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Anisa Web</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Buka menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HOME: foto bulat di tengah (Flexbox) -->
+  <header id="home" class="hero">
+    <div class="container hero-inner">
+      <h1 class="hero-nama" data-aos="fade-up" data-aos-duration="900">Anisa Alifia</h1>
+      <p class="hero-sub" data-aos="fade-up" data-aos-delay="150">Information Systems Student | Web Designer | Video Editor</p>
+      <a href="#projects" class="btn btn-primary btn-lg mt-2" data-aos="fade-up" data-aos-delay="300">View Projects</a>
+    </div>
+  </header>
+
+  <!-- ABOUT ME -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-md-5 text-center mb-4 mb-md-0" data-aos="fade-right">
+          <img
+            src="img/foto-profil..jpeg"
+            alt="Foto Anisa"
+            class="img-fluid rounded-circle"
+            style="max-width: 250px;"
+          >
+
+          >
+        </div>
+
+        <div class="col-md-7" data-aos="fade-left">
+          <h2 class="judul fw-light">Tentang Saya</h2>
+
+          <p>
+            Halo! Nama saya Anisa Alifia. Saya adalah mahasiswa
+            Sistem Informasi di Universitas Nusantara PGRI Kediri.
+          </p>
+
+          <p>
+            Saya tertarik dengan teknologi, desain website, dan
+            berbagai hal yang berhubungan dengan dunia digital.
+            Saya juga senang mengedit video, membuat desain, dan
+            mempelajari hal-hal baru tentang teknologi.
+          </p>
+
+          <p>
+            Saat ini saya terus mengembangkan kemampuan melalui
+            tugas kuliah dan berbagai proyek sederhana. Saya ingin
+            terus belajar, meningkatkan kemampuan, dan membuat
+            karya digital yang kreatif dan bermanfaat.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS: 3 kartu (CSS Grid) -->
+  <section id="skills" class="py-5 bg-soft">
+    <div class="container">
+      <h2 class="judul fw-light text-center" data-aos="fade-up">Skills</h2>
+      <p class="text-center text-secondary mb-4" data-aos="fade-up">Kemampuan yang saya pelajari dan terapkan melalui tugas kuliah dan proyek sederhana.</p>
+
+      <div class="grid-kartu">
+        <div class="kartu kartu-skill" data-aos="fade-up" data-aos-delay="0">
+          <h3 class="h5">Web Development</h3>
+          <ul class="list-unstyled mb-0">
+            <li class="skill-item">
+              <div class="skill-head"><span>HTML</span><span class="skill-level">Mahir</span></div>
+              <div class="progress" role="progressbar" aria-label="HTML" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 85%"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-head"><span>CSS</span><span class="skill-level">Mahir</span></div>
+              <div class="progress" role="progressbar" aria-label="CSS" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 80%"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-head"><span>JavaScript</span><span class="skill-level">Dasar</span></div>
+              <div class="progress" role="progressbar" aria-label="JavaScript" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 60%"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-head"><span>Bootstrap</span><span class="skill-level">Mahir</span></div>
+              <div class="progress" role="progressbar" aria-label="Bootstrap" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 80%"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="kartu kartu-skill" data-aos="fade-up" data-aos-delay="150">
+          <h3 class="h5">Design &amp; Creative</h3>
+          <ul class="list-unstyled mb-0">
+            <li class="skill-item">
+              <div class="skill-head"><span>Figma (UI/UX)</span><span class="skill-level">Menengah</span></div>
+              <div class="progress" role="progressbar" aria-label="Figma (UI/UX)" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 75%"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-head"><span>Canva</span><span class="skill-level">Mahir</span></div>
+              <div class="progress" role="progressbar" aria-label="Canva" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 85%"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-head"><span>Video Editing</span><span class="skill-level">Mahir</span></div>
+              <div class="progress" role="progressbar" aria-label="Video Editing" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 80%"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="kartu kartu-skill" data-aos="fade-up" data-aos-delay="300">
+          <h3 class="h5">Database &amp; Tools</h3>
+          <ul class="list-unstyled mb-0">
+            <li class="skill-item">
+              <div class="skill-head"><span>MySQL</span><span class="skill-level">Menengah</span></div>
+              <div class="progress" role="progressbar" aria-label="MySQL" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 70%"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-head"><span>Git &amp; GitHub</span><span class="skill-level">Dasar</span></div>
+              <div class="progress" role="progressbar" aria-label="Git &amp; GitHub" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 60%"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-head"><span>VS Code</span><span class="skill-level">Mahir</span></div>
+              <div class="progress" role="progressbar" aria-label="VS Code" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 85%"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-head"><span>Microsoft Office</span><span class="skill-level">Mahir</span></div>
+              <div class="progress" role="progressbar" aria-label="Microsoft Office" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 85%"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 class="h4 fw-light text-center mt-5 mb-4" data-aos="fade-up">Soft Skills</h3>
+      <div class="soft-grid">
+        <div class="soft-item" data-aos="fade-up" data-aos-delay="0">
+          <span class="soft-no">01</span>
+          <div><h4 class="h6 mb-1">Komunikasi</h4><p class="mb-0">Menyampaikan ide dan informasi dengan jelas, baik secara lisan maupun tulisan.</p></div>
+        </div>
+        <div class="soft-item" data-aos="fade-up" data-aos-delay="100">
+          <span class="soft-no">02</span>
+          <div><h4 class="h6 mb-1">Kerja Tim</h4><p class="mb-0">Berkolaborasi, berbagi tugas, dan menghargai masukan dalam proyek kelompok.</p></div>
+        </div>
+        <div class="soft-item" data-aos="fade-up" data-aos-delay="200">
+          <span class="soft-no">03</span>
+          <div><h4 class="h6 mb-1">Manajemen Waktu</h4><p class="mb-0">Mengatur prioritas agar tugas kuliah dan proyek selesai sesuai tenggat.</p></div>
+        </div>
+        <div class="soft-item" data-aos="fade-up" data-aos-delay="0">
+          <span class="soft-no">04</span>
+          <div><h4 class="h6 mb-1">Kreativitas</h4><p class="mb-0">Menghadirkan ide visual dan solusi yang segar dalam desain dan video.</p></div>
+        </div>
+        <div class="soft-item" data-aos="fade-up" data-aos-delay="100">
+          <span class="soft-no">05</span>
+          <div><h4 class="h6 mb-1">Pemecahan Masalah</h4><p class="mb-0">Menganalisis kendala secara logis lalu mencari solusi yang tepat.</p></div>
+        </div>
+        <div class="soft-item" data-aos="fade-up" data-aos-delay="200">
+          <span class="soft-no">06</span>
+          <div><h4 class="h6 mb-1">Cepat Belajar</h4><p class="mb-0">Terbuka pada teknologi baru dan terus mengasah kemampuan secara mandiri.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS: 3 kartu (CSS Grid) -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="judul fw-light text-center" data-aos="fade-up">Projects</h2>
+      <p class="text-center text-secondary mb-4" data-aos="fade-up">Karya yang saya kerjakan selama perkuliahan.</p>
+      <div class="grid-kartu">
+
+        <article class="kartu project" data-aos="fade-up">
+          <div class="isi">
+            <span class="project-kat">Web Application</span>
+            <h3 class="h5">Smart Study Assistant</h3>
+            <p>Asisten belajar yang membantu mengatur jadwal, tugas, dan materi kuliah agar lebih terorganisir.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="aksi">
+              <a href="#" class="btn btn-primary btn-sm">Lihat Demo</a>
+              <a href="#" class="btn btn-outline-primary btn-sm">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-5 bg-soft">
+    <div class="container">
+      <h2 class="judul fw-light text-center" data-aos="fade-up">Contact</h2>
+
+      <div class="kontak-card row g-0" data-aos="fade-up">
+
+        <!-- Panel kiri: info kontak -->
+        <div class="col-md-5 kontak-info">
+          <h3 class="h4">Ayo ngobrol!</h3>
+          <p>Punya ide, pertanyaan, atau mau kerja sama? Isi form di samping dan saya akan balas secepatnya.</p>
+          <ul class="list-unstyled mb-0">
+            <li><strong>Email</strong><br><a href="mailto:anisaalifianurrahmaizzatti@gmail.com">anisaalifianurrahmaizzatti@gmail.com</a></li>
+            <li><strong>Kampus</strong><br>Universitas Nusantara PGRI Kediri</li>
+            <li><strong>Instagram</strong><br><a href="https://www.instagram.com/ansalfnri" target="_blank" rel="noopener">@ansalfnri</a></li>
+          </ul>
+        </div>
+
+        <!-- Panel kanan: form -->
+        <div class="col-md-7 kontak-form">
+          <form id="formKontak" novalidate>
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="nama" placeholder="Nama" required>
+              <label for="nama">Nama</label>
+              <div class="invalid-feedback">Nama wajib diisi.</div>
+            </div>
+
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="email" placeholder="Email" required>
+              <label for="email">Email</label>
+              <div class="invalid-feedback">Isi email dengan format yang benar.</div>
+            </div>
+
+            <div class="mb-3">
+              <span class="d-block mb-2 text-secondary">Jenis kelamin</span>
+              <div class="d-flex gap-2">
+                <input type="radio" class="btn-check" name="gender" id="wanita" value="Wanita" required>
+                <label class="btn btn-outline-primary flex-fill" for="wanita">Wanita</label>
+                <input type="radio" class="btn-check" name="gender" id="pria" value="Pria">
+                <label class="btn btn-outline-primary flex-fill" for="pria">Pria</label>
+              </div>
+              <div id="errGender" class="text-danger small mt-1 d-none">Pilih salah satu.</div>
+            </div>
+
+            <div class="form-floating mb-4">
+              <textarea class="form-control" id="alamat" placeholder="Alamat" style="height: 110px" required></textarea>
+              <label for="alamat">Alamat</label>
+              <div class="invalid-feedback">Alamat wajib diisi.</div>
+            </div>
+
+            <div class="d-flex gap-2 align-items-center">
+              <button type="submit" class="btn btn-primary px-4">Kirim pesan</button>
+              <button type="reset" class="btn btn-link text-secondary">Reset</button>
+            </div>
+          </form>
+          <div id="hasil" class="alert alert-success mt-3 mb-0 d-none" role="status"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span>Dibuat dengan ♥ oleh Anisa</span>
+    <span>© 2026</span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ once: true, offset: 80 });
+
+    const form = document.getElementById('formKontak');
+    const hasil = document.getElementById('hasil');
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      form.classList.add('was-validated');
+      const gOk = form.querySelector('input[name=gender]:checked') !== null;
+      document.getElementById('errGender').classList.toggle('d-none', gOk);
+      if (!form.checkValidity()) return;
+      hasil.textContent = 'Terima kasih, ' + document.getElementById('nama').value + '! Pesan kamu sudah diterima.';
+      hasil.classList.remove('d-none');
+      form.reset();
+      form.classList.remove('was-validated');
+    });
+
+    form.addEventListener('reset', function () {
+      hasil.classList.add('d-none');
+      document.getElementById('errGender').classList.add('d-none');
+      form.classList.remove('was-validated');
+    });
+  </script>
+</body>
+</html>
