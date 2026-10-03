@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Portfolio Anisa</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
@@ -173,4 +173,154 @@
       <h3 class="h4 fw-light text-center mt-5 mb-4" data-aos="fade-up">Soft Skills</h3>
       <div class="soft-grid">
         <div class="soft-item" data-aos="fade-up" data-aos-delay="0">
-          <span
+          <span class="soft-no">01</span>
+          <div><h4 class="h6 mb-1">Komunikasi</h4><p class="mb-0">Menyampaikan ide dan informasi dengan jelas, baik secara lisan maupun tulisan.</p></div>
+        </div>
+        <div class="soft-item" data-aos="fade-up" data-aos-delay="100">
+          <span class="soft-no">02</span>
+          <div><h4 class="h6 mb-1">Kerja Tim</h4><p class="mb-0">Berkolaborasi, berbagi tugas, dan menghargai masukan dalam proyek kelompok.</p></div>
+        </div>
+        <div class="soft-item" data-aos="fade-up" data-aos-delay="200">
+          <span class="soft-no">03</span>
+          <div><h4 class="h6 mb-1">Manajemen Waktu</h4><p class="mb-0">Mengatur prioritas agar tugas kuliah dan proyek selesai sesuai tenggat.</p></div>
+        </div>
+        <div class="soft-item" data-aos="fade-up" data-aos-delay="0">
+          <span class="soft-no">04</span>
+          <div><h4 class="h6 mb-1">Kreativitas</h4><p class="mb-0">Menghadirkan ide visual dan solusi yang segar dalam desain dan video.</p></div>
+        </div>
+        <div class="soft-item" data-aos="fade-up" data-aos-delay="100">
+          <span class="soft-no">05</span>
+          <div><h4 class="h6 mb-1">Pemecahan Masalah</h4><p class="mb-0">Menganalisis kendala secara logis lalu mencari solusi yang tepat.</p></div>
+        </div>
+        <div class="soft-item" data-aos="fade-up" data-aos-delay="200">
+          <span class="soft-no">06</span>
+          <div><h4 class="h6 mb-1">Cepat Belajar</h4><p class="mb-0">Terbuka pada teknologi baru dan terus mengasah kemampuan secara mandiri.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS: 3 kartu (CSS Grid) -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="judul fw-light text-center" data-aos="fade-up">Projects</h2>
+      <p class="text-center text-secondary mb-4" data-aos="fade-up">Karya yang saya kerjakan selama perkuliahan.</p>
+      <div class="grid-kartu">
+
+        <article class="kartu project" data-aos="fade-up">
+          <div class="isi">
+            <span class="project-kat">Web Application</span>
+            <h3 class="h5">Smart Study Assistant</h3>
+            <p>Asisten belajar yang membantu mengatur jadwal, tugas, dan materi kuliah agar lebih terorganisir.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="aksi">
+              <a href="#" class="btn btn-primary btn-sm">Lihat Demo</a>
+              <a href="#" class="btn btn-outline-primary btn-sm">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-5 bg-soft">
+    <div class="container">
+      <h2 class="judul fw-light text-center" data-aos="fade-up">Contact</h2>
+
+      <div class="kontak-card row g-0" data-aos="fade-up">
+
+        <!-- Panel kiri: info kontak -->
+        <div class="col-md-5 kontak-info">
+          <h3 class="h4">Ayo ngobrol!</h3>
+          <p>Punya ide, pertanyaan, atau mau kerja sama? Isi form di samping dan saya akan balas secepatnya.</p>
+          <ul class="list-unstyled mb-0">
+            <li><strong>Email</strong><br><a href="mailto:anisaalifianurrahmaizzatti@gmail.com">anisaalifianurrahmaizzatti@gmail.com</a></li>
+            <li><strong>Kampus</strong><br>Universitas Nusantara PGRI Kediri</li>
+            <li><strong>Instagram</strong><br><a href="https://www.instagram.com/ansalfnri" target="_blank" rel="noopener">@ansalfnri</a></li>
+          </ul>
+        </div>
+
+        <!-- Panel kanan: form -->
+        <div class="col-md-7 kontak-form">
+          <form id="formKontak" novalidate>
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="nama" placeholder="Nama" required>
+              <label for="nama">Nama</label>
+              <div class="invalid-feedback">Nama wajib diisi.</div>
+            </div>
+
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="email" placeholder="Email" required>
+              <label for="email">Email</label>
+              <div class="invalid-feedback">Isi email dengan format yang benar.</div>
+            </div>
+
+            <div class="mb-3">
+              <span class="d-block mb-2 text-secondary">Jenis kelamin</span>
+              <div class="d-flex gap-2">
+                <input type="radio" class="btn-check" name="gender" id="wanita" value="Wanita" required>
+                <label class="btn btn-outline-primary flex-fill" for="wanita">Wanita</label>
+                <input type="radio" class="btn-check" name="gender" id="pria" value="Pria">
+                <label class="btn btn-outline-primary flex-fill" for="pria">Pria</label>
+              </div>
+              <div id="errGender" class="text-danger small mt-1 d-none">Pilih salah satu.</div>
+            </div>
+
+            <div class="form-floating mb-4">
+              <textarea class="form-control" id="alamat" placeholder="Alamat" style="height: 110px" required></textarea>
+              <label for="alamat">Alamat</label>
+              <div class="invalid-feedback">Alamat wajib diisi.</div>
+            </div>
+
+            <div class="d-flex gap-2 align-items-center">
+              <button type="submit" class="btn btn-primary px-4">Kirim pesan</button>
+              <button type="reset" class="btn btn-link text-secondary">Reset</button>
+            </div>
+          </form>
+          <div id="hasil" class="alert alert-success mt-3 mb-0 d-none" role="status"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span>Dibuat dengan ♥ oleh Anisa</span>
+    <span>© 2026</span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    // Jika AOS gagal dimuat, hapus atribut animasi supaya konten tetap tampil
+    if (window.AOS) {
+      AOS.init({ once: true, offset: 80 });
+    } else {
+      document.querySelectorAll('[data-aos]').forEach(function (el) { el.removeAttribute('data-aos'); });
+    }
+
+    const form = document.getElementById('formKontak');
+    const hasil = document.getElementById('hasil');
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      form.classList.add('was-validated');
+      const gOk = form.querySelector('input[name=gender]:checked') !== null;
+      document.getElementById('errGender').classList.toggle('d-none', gOk);
+      if (!form.checkValidity()) return;
+      hasil.textContent = 'Terima kasih, ' + document.getElementById('nama').value + '! Pesan kamu sudah diterima.';
+      hasil.classList.remove('d-none');
+      form.reset();
+      form.classList.remove('was-validated');
+    });
+
+    form.addEventListener('reset', function () {
+      hasil.classList.add('d-none');
+      document.getElementById('errGender').classList.add('d-none');
+      form.classList.remove('was-validated');
+    });
+  </script>
+</body>
+</html>
